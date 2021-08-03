@@ -1,0 +1,494 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- === BOX ICONS === -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- === Font Awesome === -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Charité Digestive Charity Clinic</title>
+  </head>
+
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!-- === HEADER === -->
+    <header class="" id="header">
+      <section class="mininav">
+        <div class="mininav__menu">
+          <ul class="mininav__l">
+            <li class="">
+              <i class="bx bxs-phone nav__icon"></i> 250-123-45678
+            </li>
+            <li class="">
+              <i class="bx bxs-map nav__icon"></i>Lorem ipsum dolor sit amet.
+              Lorem, Ipsum.
+            </li>
+            <li class="">
+              <i class="bx bxs-time nav__icon"></i>Mon to Sat 9:00am to 18:00pm
+            </li>
+          </ul>
+        </div>
+
+        <div class="social__menu">
+          <a href="#" class="h__social"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="h__social"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="h__social"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="h__social"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </section>
+
+      <nav class="main__nav" id="mn__header">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+        <a href="index.html" class="nav__logo"
+          >Charité Digestive Charity Clinic</a
+        >
+        <div class="rnav" id="rnav-menu">
+          <div class="nav__close">
+            <i class="bx bx-x" id="nav-close"></i>
+          </div>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="">
+                <a href="/index.html" class="nav__link active">Home</a>
+              </li>
+              <li class="">
+                <a href="/about.html" class="nav__link">About</a>
+              </li>
+              <li class="">
+                <a href="#department" class="nav__link">Department</a>
+              </li>
+              <li class="">
+                <a href="/doctors.html" class="nav__link">Doctors</a>
+              </li>
+              <li class="">
+                <a href="/contact.html" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="/contact.html" class="appt__btn">Appointment</a>
+        </div>
+
+        <div class="d__theme">
+          <a href=""><i class="bx bx-moon" id="theme-button"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <!--========== Main Body ==========-->
+    <main>
+      <!-------- HERO SECTION -------->
+      <section class="hero__container">
+        <div class="hero__desc">
+          <!-- <span>Lorem, ipsum dolor.</span> -->
+          <h1>The groundwork for all happiness is good health.</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur <br />
+            adipisicing elit. Officiis, tempore.
+          </p>
+          <a href="/contact.html" class="hero__btn">Contact Us</a>
+        </div>
+
+        <div class="hero__img">
+          <img
+            class="hero__img__a"
+            src="./assets/img/doc_cropped_b.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-------- ABOUT US SECTION -------->
+      <section class="about__container">
+        <div class="about__form">
+          <span>Request for your</span>
+          <h2 class="about__desc__title">Consultation</h2>
+          <form
+            class="a__form"
+            action="https://formsubmit.co/mayowaodebode@gmail.com"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Patient Request: Appointment"
+            />
+
+            <input type="hidden" name="_next" value="#" />
+
+            <div class="input-container">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="input"
+                autocomplete="on"
+              />
+              <!-- <label for="">Full Name</label>
+              <span>Full Name</span> -->
+            </div>
+
+            <div class="input-container">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="input"
+                autocomplete="on"
+                required
+              />
+            </div>
+
+            <div class="input-container">
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone Number"
+                class="input"
+                autocomplete="on"
+                required
+              />
+            </div>
+
+            <div class="input-container">
+              <input
+                type="date"
+                name="date"
+                placeholder="Date"
+                class="input"
+                autocomplete="on"
+                required
+              />
+            </div>
+
+            <div class="input-container">
+              <select name="services" class="input">
+                <option value="#" class="dropdown__a">Type Of Service</option>
+                <option value="#" class="dropdown">Advanced Equipment</option>
+                <option value="#" class="dropdown">Qualified Doctors</option>
+                <option value="#" class="dropdown">Emergency Care</option>
+                <option value="#" class="dropdown">Inquiry</option>
+              </select>
+            </div>
+
+            <input type="submit" value="Book Appointment" class="form__btn" />
+          </form>
+        </div>
+
+        <div class="about__desc">
+          <span class="about__desc__sub"
+            >Welcome to Charité Digestive Charity Clinic</span
+          >
+          <h2 class="about__desc__title">
+            Only The Best Care For Your Good Health
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            excepturi, repudiandae magnam aliquid culpa cum at similique
+            deserunt numquam totam ex? Optio expedita quos officiis dolores
+            voluptate velit? Similique.
+          </p>
+        </div>
+
+        <div class="about__img">
+          <img class="about__img__a" src="./assets/img/about_a.jpg" alt="" />
+        </div>
+      </section>
+
+      <div class="separate"></div>
+
+      <!-------- SERVICES SECTION -------->
+      <section class="services__container">
+        <div class="services__card__a">
+          <i class="fas fa-hospital-user s__icon"></i>
+          <h3>Hospitality</h3>
+          <p class="s__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            neque ipsum dolor sit amet adipisicing.
+          </p>
+          <a href="/contact.html" class="s__button">Request For A bed</a>
+        </div>
+
+        <div class="services__card__b">
+          <i class="fas fa-ambulance s__icon"></i>
+          <h3>Emergency Care</h3>
+          <p class="s__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            neque? <br />
+            Lorem ipsum dolor sit amet.
+          </p>
+          <a href="/contact.html" class="s__button">+250-123-456-789</a>
+        </div>
+
+        <div class="services__card__c">
+          <i class="fas fa-laptop-medical s__icon"></i>
+          <h3>Advanced Equipment</h3>
+          <p class="s__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            neque? <br />
+            Lorem ipsum dolor sit amet.
+          </p>
+          <a href="/contact.html" class="s__button">Book An Appointment</a>
+        </div>
+      </section>
+
+      <div class="separate"></div>
+
+      <!-------- DEPARTMENTS SECTION -------->
+
+      <section class="departments__container">
+        <div class="d__desc">
+          <h2>Our Departments</h2>
+          <div class="t__border"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+
+        <div class="d__list">
+          <div class="d__card">
+            <img class="d__img" src="./assets/img/doc_d.jpg" alt="" />
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              consequatur.
+            </p>
+            <a class="d__button" href="/services.html">Learn More</a>
+          </div>
+
+          <div class="d__card">
+            <img class="d__img" src="./assets/img/doc_d.jpg" alt="" />
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              consequatur.
+            </p>
+            <a class="d__button" href="/services.html">Learn More</a>
+          </div>
+
+          <div class="d__card">
+            <img class="d__img" src="./assets/img/doc_d.jpg" alt="" />
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              consequatur.
+            </p>
+            <a class="d__button" href="/services.html">Learn More</a>
+          </div>
+        </div>
+
+        <div class="d__list">
+          <div class="d__card">
+            <img class="d__img" src="./assets/img/doc_d.jpg" alt="" />
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              consequatur.
+            </p>
+            <a class="d__button" href="/services.html">Learn More</a>
+          </div>
+
+          <div class="d__card">
+            <img class="d__img" src="./assets/img/doc_d.jpg" alt="" />
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              consequatur.
+            </p>
+            <a class="d__button" href="/services.html">Learn More</a>
+          </div>
+
+          <div class="d__card">
+            <img class="d__img" src="./assets/img/doc_d.jpg" alt="" />
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              consequatur.
+            </p>
+            <a class="d__button" href="/services.html">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-------- TEAM SECTION -------->
+      <section class="team__container">
+        <div class="t__desc">
+          <p>OUR TEAM</p>
+          <div class="t__border"></div>
+          <h2>Meet Our Expert Doctors</h2>
+        </div>
+
+        <div class="t__list">
+          <div class="t__ccard">
+            <a href="/doctors.html"
+              ><img src="./assets/img/blue__spirit.jpg" alt=""
+            /></a>
+            <h4>Dr. Jonathan Doe</h4>
+            <p>Resident Doctor</p>
+            <div class="t__social">
+              <a href="#" class=""><i class="bx bxl-facebook"></i></a>
+              <a href="#" class=""><i class="bx bxl-instagram"></i></a>
+              <a href="#" class=""><i class="bx bxl-twitter"></i></a>
+              <a href="#" class=""><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="t__ccard">
+            <a href="/doctors.html"
+              ><img src="./assets/img/blue__spirit.jpg" alt=""
+            /></a>
+            <h4>Dr. Oscar Wilde</h4>
+            <p>Resident Doctor</p>
+            <div class="t__social">
+              <a href="#" class=""><i class="bx bxl-facebook"></i></a>
+              <a href="#" class=""><i class="bx bxl-instagram"></i></a>
+              <a href="#" class=""><i class="bx bxl-twitter"></i></a>
+              <a href="#" class=""><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="t__ccard">
+            <a href="/doctors.html"
+              ><img src="./assets/img/blue__spirit.jpg" alt=""
+            /></a>
+            <h4>Dr. Janet Doe</h4>
+            <p>Resident Doctor</p>
+            <div class="t__social">
+              <a href="#" class=""><i class="bx bxl-facebook"></i></a>
+              <a href="#" class=""><i class="bx bxl-instagram"></i></a>
+              <a href="#" class=""><i class="bx bxl-twitter"></i></a>
+              <a href="#" class=""><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------- CTA SECTION -------->
+      <section class="cta__container">
+        <div class="cta__contact">
+          <div class="cta__desc">
+            <h4>For Emergency Contact</h4>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="cta__button">
+            <a href="/contact.html" class="cta__b">+250-123-456-789</a>
+          </div>
+        </div>
+
+        <div class="cta__appointment">
+          <div class="cta__desc">
+            <h4>Book An Appointment</h4>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="cta__button">
+            <a href="/contact.html" class="cta__b">Book Appointment</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-------- FOOTER -------->
+    <footer class="footer__section">
+      <div class="footer__container">
+        <div class="f__box">
+          <h4>Charité Digestive Charity Clinic</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint rem
+            laudantium, animi deleniti debitis mollitia ratione repellendus.
+            <!-- Unde, ducimus voluptatibus? -->
+          </p>
+        </div>
+
+        <div class="f__box__2">
+          <h4>Company</h4>
+
+          <ul>
+            <li>
+              <a href="" class="">About Us</a>
+            </li>
+            <li>
+              <a href="" class="">Departments</a>
+            </li>
+            <li>
+              <a href="" class="">Doctors</a>
+            </li>
+            <li>
+              <a href="" class="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="f__box__3">
+          <h4>Contact Us</h4>
+
+          <ul>
+            <li><i class="bx bxs-phone f__icon"></i>+250-123-456-789</li>
+            <li>
+              <i class="bx bxs-map f__icon"></i>Lorem ipsum dolor sit amet.
+              Lorem, Ipsum.
+            </li>
+            <li>
+              <i class="bx bxs-time f__icon"></i>Mon to Sat 9:00am to 18:00pm
+            </li>
+          </ul>
+
+          <div class="f__social">
+            <a href="#" class=""><i class="bx bxl-facebook"></i></a>
+            <a href="#" class=""><i class="bx bxl-instagram"></i></a>
+            <a href="#" class=""><i class="bx bxl-twitter"></i></a>
+            <a href="#" class=""><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="f__box__4"></div>
+      </div>
+
+      <div class="f__mini">
+        <div class="f__mdesc">
+          <p>
+            Copyright © 2021 All rights reserved | By <a href="">Xidian Tech</a>
+          </p>
+        </div>
+
+        <div class="f__credits">
+          <ul>
+            <li>All Rights Reserved |</li>
+            <li>Terms & Use |</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
