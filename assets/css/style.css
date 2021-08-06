@@ -1097,7 +1097,7 @@ p {
   }
 
   .nav__menu {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-right: 3rem;
     margin-top: 2.5rem;
   }
@@ -1308,12 +1308,6 @@ p {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-  }
-
-  .form__btn:hover {
-    background-color: #f6ffff;
-    color: #004545;
-    border: 1px solid #004545;
   }
 
   .about__desc {
