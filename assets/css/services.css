@@ -828,13 +828,13 @@ img {
 
   .rnav {
     position: fixed;
-    top: 48;
+    top: 0;
     left: -100%;
     background-color: var(--white-color);
     color: var(--white-color);
-    width: 70%;
-    height: 60%;
-    padding: 1.2rem 0;
+    width: 68%;
+    height: 70%;
+    padding: 2rem 0 2rem 1.5rem;
     z-index: 200;
     transition: 0.5s;
     /* border: 1px solid yellow; */
